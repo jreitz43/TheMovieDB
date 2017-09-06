@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="TheMovieDB.js"></script>
+    <title>The Movie DB</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Explore Movies</h1>
+
+        <a href="https://api.themoviedb.org/3/search/movie?api_key=a09fd1d63dbc80b5d6ce75f4ffc6d148&language=en-US&query=The%20Big%20Short&page=1&include_adult=false">Search for The Big Short</a>
+
+        <input type="text" id="movieTitle" class="form-control" placeholder="Movie Title, Actor..."/>
+
+        <button id="searchMovie" class="btn btn-primary btn-block">Explore Movies</button>
+
+        <h2>Results</h2>
+        <table class="table table-striped">
+            <thread>
+                <tr>
+                    <th> Title </th>
+                    <th> Plot </th>
+                    <th> Poster </th>
+                </tr>
+            </thread>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td><img src=""/></td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+</body>
+</html>
